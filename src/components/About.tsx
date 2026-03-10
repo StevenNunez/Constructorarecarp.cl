@@ -23,7 +23,7 @@ export default function About() {
                         <span className="text-primary font-bold tracking-[0.2em] uppercase text-xs mb-4 block">Trayectoria y Confianza</span>
                         <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-slate-900 leading-tight">
                             Constructora Recarp SpA: <br />
-                            <span className="text-slate-400 font-light italic">Solidez desde 2021</span>
+                            <span className="text-slate-400 font-light italic"></span>
                         </h2>
                         <p className="text-slate-600 text-lg mb-10 leading-relaxed font-light">
                             Ubicados en el corazón de La Serena, en <b className="text-slate-800">El Romero Sitio 2814 Block B</b>, nos hemos consolidado como un referente regional. Nuestro enfoque se centra en la excelencia operativa y la atención meticulosa a cada detalle de obra.
@@ -58,8 +58,8 @@ export default function About() {
                     >
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl z-10 group">
                             <img
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMAvXvcwddHfTAA3kG963lvSpy9o3REmwPRUDoHDmxh8VqodymYfI5ALcq6aTb_p3BTc1V0DfwCK7yXPnKy-ymyWcZ3bRBj06wJsAx3qUBpu-q2so0AfilIp8Aq8pPIlidZj-56wWM4JvdMufXCuzMaopEmRBGmcs618br6_IOlcFKcH0k2BUCl0GNIjdbcyRUFEIH-X9aa1Uolr4HRVWXqa4EZrPFibgnEMB86YHWRHqi35HtyOVphtUwhVp4kdFTgeT70YK1oeo9"
-                                alt="Proyectos Recarp"
+                                src="/aeropuerto.png"
+                                alt="Proyectos Recarp - Trabajos en el Aeropuerto arturo merino"
                                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-1000"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>

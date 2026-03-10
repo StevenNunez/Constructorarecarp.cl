@@ -23,13 +23,6 @@ export default function Footer() {
                             Líderes en acabados de alta gama y construcción especializada en la Región de Coquimbo. Solidez técnica y estética que perdura en el tiempo.
                         </p>
 
-                        <div className="flex gap-4 mt-10">
-                            {[Facebook, Instagram, Linkedin].map((Icon, idx) => (
-                                <a key={idx} href="#" className="w-12 h-12 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-primary hover:bg-primary transition-all duration-300">
-                                    <Icon size={20} />
-                                </a>
-                            ))}
-                        </div>
                     </div>
 
                     <div>
@@ -77,8 +70,8 @@ export default function Footer() {
                     </p>
 
                     <div className="flex gap-8 text-slate-600 text-[10px] uppercase font-bold tracking-widest">
-                        <a href="#" className="hover:text-primary transition-colors">Privacidad</a>
-                        <a href="#" className="hover:text-primary transition-colors">Términos</a>
+                        <a href="#" className="hover:text-primary transition-colors"></a>
+                        <a href="#" className="hover:text-primary transition-colors"></a>
                     </div>
 
                     <button

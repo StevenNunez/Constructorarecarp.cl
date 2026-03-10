@@ -7,7 +7,7 @@ import { Mail, MapPin, ClipboardCheck, Phone, Send, Info, MessageSquare } from "
 const infoItems = [
     { icon: <MapPin className="text-primary" />, title: "Oficina Central", detail: "El Romero Sitio 2814 Block B, La Serena, Chile" },
     { icon: <ClipboardCheck className="text-primary" />, title: "Identificación Fiscal", detail: "RUT: 77.471.664-5" },
-    { icon: <Mail className="text-primary" />, title: "Correo Electrónico", detail: "contacto@constructora-recarp.cl" },
+    { icon: <Mail className="text-primary" />, title: "Correo Electrónico", detail: "cristianpc@constructorarecarp.cl" },
 ];
 
 export default function Contact() {

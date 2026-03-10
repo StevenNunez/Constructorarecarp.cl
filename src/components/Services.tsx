@@ -9,14 +9,14 @@ const services = [
         description: "Ejecución de procesos técnicos complejos que requieren experiencia específica, garantizando la integridad estructural y normativa.",
         icon: <Hammer className="w-8 h-8" />,
         color: "bg-red-50 text-primary",
-        features: ["Estructuras metálicas", "Obras de hormigón armado", "Instalaciones técnicas"]
+        features: ["Estructuras metálicas","Albañileria y Carpinteria en General", "instalación de moldajes muros y losas", "Obras de hormigón armado", "Instalaciones termicas y sanitarias"]
     },
     {
         title: "Terminaciones y Acabados",
         description: "Toque final de distinción a sus edificaciones. Especialistas en revestimientos, pintura y detalles de alta gama.",
         icon: <Paintbrush className="w-8 h-8" />,
         color: "bg-pink-50 text-accent",
-        features: ["Revestimientos de piedra", "Yeso y pintura decorativa", "Acabados de lujo"]
+        features: ["Revestimientos de polcelanato y cerámica","Revestimientos de piedra", "Yeso y pintura decorativa", "Acabados de lujo", "Construcción de piscinas"]
     }
 ];
 

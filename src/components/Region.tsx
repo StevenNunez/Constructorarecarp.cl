@@ -51,7 +51,7 @@ export default function Region() {
 
                     <div className="lg:w-1/2 relative min-h-[400px]">
                         <img
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeJzAjeeCJuaX83aewiXhh68AemzPD8NPfBC4vs2JjCr3Gg-ebfARe8nbX-v1812VWFne9Lgqa2x5ub7faAELowaM-bTZJoUB19_VRvvwL1RqKlrWH-Ci1npc3fQZeCo_gu839F_Fk6J5yofxPEBawT0GFAtp17M1n8u_ILYJ1kkbkAakS085o2ipTFGIFy5lb0rPc7s2vu5eaKudE3KARpbmW2tbfnbN3yEoER2BUZ_Mam7EaHnKB1-0kzFlAmPJVZANiPYBKXAqF"
+                            src="/obraestanciasauce.png"
                             alt="Región de Coquimbo"
                             className="absolute inset-0 w-full h-full object-cover grayscale brightness-110 hover:grayscale-0 transition-all duration-1000"
                         />
