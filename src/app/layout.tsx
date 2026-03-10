@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     "estructuras metálicas",
     "construcción especializada",
     "Constructora Recarp",
+    "constructora recarp",
+    "recarp spa",
   ],
   alternates: {
     canonical: siteUrl,
@@ -37,6 +39,19 @@ export const metadata: Metadata = {
     siteName,
     locale: "es_CL",
     type: "website",
+    images: [
+      {
+        url: `${siteUrl}/logo.png`,
+        width: 1200,
+        height: 630,
+        alt: "Constructora Recarp SpA - Construcción en Coquimbo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
   },
   robots: {
     index: true,
@@ -44,8 +59,50 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
+  // PASO 4: Descomenta y reemplaza con tu código real de Google Search Console
+  // Ver instrucciones en los comentarios al final de este archivo
+  // verification: {
+  //   google: "TU_CODIGO_DE_VERIFICACION_AQUI",
+  // },
+};
+
+// Datos estructurados JSON-LD (Schema.org) para Google
+// Esto le dice a Google qué tipo de empresa eres y dónde estás ubicada
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ConstructionCompany",
+  name: "Constructora Recarp SpA",
+  alternateName: "Recarp",
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+  image: `${siteUrl}/logo.png`,
+  description: siteDescription,
+  address: {
+    "@type": "PostalAddress",
+    addressRegion: "Coquimbo",
+    addressCountry: "CL",
+  },
+  areaServed: {
+    "@type": "State",
+    name: "Región de Coquimbo",
+  },
+  serviceType: [
+    "Construcción de obras civiles",
+    "Terminaciones finas",
+    "Obras de hormigón armado",
+    "Estructuras metálicas",
+    "Construcción especializada",
+  ],
+  knowsAbout: [
+    "Hormigón armado",
+    "Estructuras metálicas",
+    "Terminaciones finas",
+  ],
 };
 
 export default function RootLayout({
@@ -55,6 +112,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.variable} font-body antialiased`}>
         {children}
         <FloatingWhatsApp />
